@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .container {
@@ -83,6 +84,8 @@
 }
 
 .rooms-card {
+  display: flex;
+  justify-content: center;
   width: 630px;
   height: 500px;
   border-radius: 10px;
@@ -121,8 +124,8 @@
 .rooms-gallery {
     display: flex;
     gap: 60px;
-    flex-wrap: wrap;;
-
+    flex-wrap: wrap;    
+    justify-content: center;
 }
 .second-section {
     margin-bottom: 55px;
